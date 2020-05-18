@@ -1,0 +1,8 @@
+@import url("./__submit/urbanForm__submit.css");
+@import url("./__field/urbanForm__field.css");
+
+.urbanForm{
+ display: flex;
+ flex-direction: row;
+ align-items: baseline;
+ }

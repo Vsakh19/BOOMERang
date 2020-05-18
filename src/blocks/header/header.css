@@ -1,0 +1,8 @@
+@import url("./__title/header__title.css");
+@import url("./__subtitle/header__subtitle.css");
+
+.header{
+    min-height: 70px;
+    background: #1D2439;
+    padding: 10px 60px 0 60px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+</head>
+<body>
+<div class="page">
+    <header class="header">
+        <h1 class="header__title">BOOMERang</h1>
+        <h2 class="header__subtitle">Get definition of any millennial term</h2>
+        <form class="urbanForm">
+            <label class="urbanForm__label" for="field"></label>
+            <input placeholder="Type any word..." class="urbanForm__field" type="text" id="field">
+            <button disabled class="urbanForm__submit">Search</button>
+        </form>
+    </header>
+    <section class="main">
+
+        <div class="searchResult"></div>
+    </section>
+</div>
+<script type="module" src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+</html>

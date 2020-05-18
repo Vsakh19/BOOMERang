@@ -1,0 +1,14 @@
+.urbanForm__submit {
+    border: none;
+    border-bottom: 2px solid #EFFF00;
+    font-family: Inter;
+    font-size: 12px;
+    background: white;
+    min-width: 55px;
+    outline: none;
+    height: 29px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 0;
+    cursor: pointer;
+}

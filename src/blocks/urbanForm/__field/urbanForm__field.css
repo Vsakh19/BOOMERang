@@ -1,0 +1,16 @@
+.urbanForm__field{
+    border: none;
+    border-bottom: 2px solid #EFFF00;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    line-height: 27px;
+    width: 100%;
+    margin: 20px 0;
+    outline: none;
+    padding: 0;
+}
+
+.urbanForm__field::placeholder{
+    color: lightgray;
+    opacity: 0.8;
+}
